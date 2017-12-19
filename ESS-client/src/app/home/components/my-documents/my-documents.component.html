@@ -1,3 +1,83 @@
-<p>
-  my-documents works!
-</p>
+<div class="row container-fluid myaccount-main">
+    <div class="row header-main1">
+        <div class="container">
+            <div class="col-sm-7">
+                <h1><i class="fa fa-angle-double-right" aria-hidden="true"></i>My Documents</h1>
+                <p-breadcrumb [model]="items"></p-breadcrumb>
+
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row election-data-main">
+            <div class="col-sm-12 election-form-body">
+                <ul class="nav nav-tabs nav-pills nav-justified">
+                    <li class="active"><a data-toggle="tab" href="#home"><span>Manuals</span></a></li>
+                    <li><a data-toggle="tab" href="#menu1"><span>Tech Bulletins</span></a></li>
+                </ul>
+                <div class="tab-content">
+                    <div id="home" class="tab-pane fade in active">
+                        <div class="election-general-info-body table-responsive">
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th>Product</th>
+                                        <th>Document</th>
+                                        <th>Date</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Ballot On Demand</td>
+                                        <td>ESS ballot on demand BOD setup and printing Procedure v7.5.3</td>
+                                        <td>12/02/2014</td>
+                                    </tr>
+                                    <tr>
+                                        <td>DS200</td>
+                                        <td>Unity 3.1.0 or ES&S System operations</td>
+                                        <td>22/04/2014</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Audit Manager</td>
+                                        <td>Audit Manager Operations system Manuals v7.5.2</td>
+                                        <td>24/04/2016</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div id="menu1" class="tab-pane fade">
+                        <div class="election-general-info-body table-responsive">
+                            <table class="table table2">
+                                <thead>
+                                    <tr>
+                                        <th>Product</th>
+                                        <th>Document</th>
+                                        <th>Date</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Unity</td>
+                                        <td>Codeing Multiple Page Ballots</td>
+                                        <td>12/02/2014</td>
+                                    </tr>
+                                    <tr>
+                                        <td>DS200</td>
+                                        <td>Best practices for cleaning and collobrating</td>
+                                        <td>22/04/2014</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Election Data Manager</td>
+                                        <td>Importing precints into EDM</td>
+                                        <td>24/04/2016</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -61,6 +61,43 @@
     background-color: #fff;
 }
 
+.data-table-main input {
+    margin: 20px 0px;
+    height: auto;
+    min-height: 52px;
+    padding: 12px 20px;
+    /* border-bottom: 1px solid #eaeaea; */
+    font-size: 18px;
+    width: 94%;
+    border-radius: 0px;
+    border: 0px;
+    border-bottom: 1px solid #ddd;
+    box-shadow: none;
+    background-image: url(http://icons.iconarchive.com/icons/icons8/ios7/256/Very-Basic-Search-icon.png);
+    background-repeat: no-repeat;
+    background-size: 25px 25px;
+    background-position: 1%;
+    padding-left: 45px;
+}
+
+.data-table-main input:focus {
+    outline: none;
+    border-bottom: 1px solid #ddd;
+}
+
+.data-table-main .search-btn {
+    width: 6%;
+    clear: both;
+    padding: 8px 18px;
+    font-size: 20px;
+    vertical-align: middle;
+    color: green;
+}
+
+.data-table-main .search-btn:hover {
+    color: #000;
+}
+
 
 /*.election-btns button { background-color: rgba(0,60,93,0.75) !important;
     background-color: transparent;
@@ -502,5 +539,3 @@ body {
         padding: 10px 0px;
     }
 }
-
-:host /deep/ ng2-smart-table thead>tr>th {}

@@ -38,7 +38,7 @@ export class AppComponent {
   removeHeader() {
     var titlee = this.location.prepareExternalUrl(this.location.path());
     titlee = titlee.slice(1);
-    if (titlee === 'login') {
+    if (titlee === 'login' || titlee === 'resetpassword') {
       return false;
     }
     else {
@@ -48,7 +48,7 @@ export class AppComponent {
   removeFooter() {
     var titlee = this.location.prepareExternalUrl(this.location.path());
     titlee = titlee.slice(1);
-    if (titlee === 'login') {
+    if (titlee === 'login' || titlee === 'resetpassword') {
       return false;
     }
     else {

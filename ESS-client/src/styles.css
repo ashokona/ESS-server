@@ -3,11 +3,12 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700');
 @font-face {
     font-family: 'calibri';
-    src: url(assets/fonts/Calibri.ttf); 
+    src: url(assets/fonts/Calibri.ttf);
 }
+
 @font-face {
     font-family: 'calibri-bold';
-    src: url(assets/fonts/CalibriBold.ttf); 
+    src: url(assets/fonts/CalibriBold.ttf);
 }
 
 body,
@@ -20,6 +21,7 @@ div {
     font-family: 'calibri' !important;
     letter-spacing: 0.12px !important;
 }
+
 h1,
 h2,
 h3,
@@ -29,8 +31,16 @@ h6 {
     font-family: 'calibri-bold' !important;
     letter-spacing: 0.5px;
 }
-p { font-size: 16px; line-height: 22px; }
-a { color: #003c5b; }
+
+p {
+    font-size: 16px;
+    line-height: 22px;
+}
+
+a {
+    color: #003c5b;
+}
+
 
 /*.container-fluid { padding: 0px;}*/
 
@@ -113,19 +123,41 @@ body {
 .divider {
     background-color: #f5b324 !important;
 }
-ng2-smart-table table thead tr th{
-    color: #003c5b;
-    padding: 20px 10px !important;
-    font-size: 16px !important;
+
+ng2-smart-table table thead tr:first-child th {
+    color: #fff;
+    padding: 35px 7px !important;
+    font-size: 16.5px !important;
     line-height: 22px !important;
+    background-color: #6ca442;
 }
+
+ng2-smart-table table thead tr:first-child th a {
+    color: #fff;
+}
+
 ng2-smart-table table tbody tr td {
-    padding: 15px 12px !important;
+    padding: 20px 12px !important;
     vertical-align: top;
-    font-size: 14px !important;
+    font-size: 16px !important;
     line-height: 20px !important;
 }
 
 ng2-smart-table table tbody tr:nth-of-type(odd) {
     background-color: #f1f0f5;
+}
+
+.pagination>li>a,
+.pagination>li>span {
+    font-size: 16px !important;
+}
+
+.pagination>.active>a,
+.pagination>.active>a:focus,
+.pagination>.active>a:hover,
+.pagination>.active>span,
+.pagination>.active>span:focus,
+.pagination>.active>span:hover {
+    border-color: #003c5b !important;
+    background-color: #003c5b !important;
 }

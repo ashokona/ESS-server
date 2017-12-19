@@ -3,7 +3,7 @@
         <div class="container">
             <div class="col-sm-7">
                 <h1><i class="fa fa-angle-double-right" aria-hidden="true"></i>Customer Account</h1>
-                <p-breadcrumb [model]="items"></p-breadcrumb>
+                <!-- <p-breadcrumb [model]="items"></p-breadcrumb> -->
 
             </div>
         </div>
@@ -24,13 +24,15 @@
                                         <div class="col-sm-6 mya-left">
                                             <form class="login-form" novalidate="novalidate">
                                                 <div class="form-group">
-                                                    <input id="login-form-login" type="text" name="login" placeholder="Customer Account Name" class="form-control form-control-has-validation"><span class="form-validation">The text field is required.</span>
+                                                    <input id="login-form-login" type="text" name="login" placeholder="Customer Account Name" name="accountName" class="form-control form-control-has-validation" disabled>
+                                                    <!-- <span class="form-validation">The text field is required.</span> -->
                                                 </div>
                                                 <div class="form-group">
-                                                    <input id="login-form-password" type="password" name="pass" placeholder="Customer Account Number(s)" class="form-control form-control-has-validation"><span class="form-validation">The text field is required.</span>
+                                                    <input id="login-form-password" type="password" name="pass" placeholder="Customer Account Number(s)" name="accountNumber" class="form-control form-control-has-validation" disabled>
+                                                    <!-- <span class="form-validation">The text field is required.</span> -->
                                                 </div>
                                                 <div class="form-group">
-                                                    <textarea class="form-control" rows="5" id="comment" placeholder="Address"></textarea>
+                                                    <textarea class="form-control" rows="5" id="comment" name="accountAddress" placeholder="Address"></textarea>
                                                 </div>
                                                 <div class="edit-btn">
                                                     <button type="submit" class="btn btn-type1">Edit</button>
@@ -41,19 +43,23 @@
                                             <form class="login-form" novalidate="novalidate">
                                                 <h3>Contact Lists</h3>
                                                 <div class="form-group">
-                                                    <input id="login-form-login" type="text" name="login" placeholder="Contact First Name" class="form-control form-control-has-validation"><span class="form-validation">The text field is required.</span>
+                                                    <input id="login-form-login" type="text" name="login" placeholder="Contact First Name" class="form-control form-control-has-validation">
+                                                    <!-- <span class="form-validation">The text field is required.</span> -->
                                                 </div>
                                                 <div class="form-group">
-                                                    <input id="login-form-password" type="password" name="pass" placeholder="Contact Last Name" class="form-control form-control-has-validation"><span class="form-validation">The text field is required.</span>
+                                                    <input id="login-form-password" type="password" name="pass" placeholder="Contact Last Name" class="form-control form-control-has-validation">
+                                                    <!-- <span class="form-validation">The text field is required.</span> -->
                                                 </div>
                                                 <div class="form-group">
-                                                    <input id="login-form-password" type="password" name="pass" placeholder="Contact email" class="form-control form-control-has-validation"><span class="form-validation">The text field is required.</span>
+                                                    <input id="login-form-password" type="password" name="pass" placeholder="Contact email" class="form-control form-control-has-validation">
+                                                    <!-- <span class="form-validation">The text field is required.</span> -->
                                                 </div>
                                                 <div class="form-group">
-                                                    <input id="login-form-password" type="password" name="pass" placeholder="Contact Phone" class="form-control form-control-has-validation"><span class="form-validation">The text field is required.</span>
+                                                    <input id="login-form-password" type="password" name="pass" placeholder="Contact Phone" class="form-control form-control-has-validation">
+                                                    <!-- <span class="form-validation">The text field is required.</span> -->
                                                 </div>
                                                 <div class="edit-btn">
-                                                    <button type="submit" class="btn btn-type2">Save</button>
+                                                    <button type="submit" class="btn btn-type2">Add</button>
                                                 </div>
                                             </form>
                                         </div>
@@ -66,8 +72,8 @@
                         <div class="election-general-info-body">
                             <div class="data-table-main">
                                 <input #search class="search" type="text" placeholder="Search..." (keydown.enter)="onSearch(search.value)">
+                                <span class="search-btn"><i class="fa fa-share" aria-hidden="true"></i></span>
                                 <ng2-smart-table [settings]="settings" [source]="source"></ng2-smart-table>
-
                             </div>
                         </div>
                     </div>

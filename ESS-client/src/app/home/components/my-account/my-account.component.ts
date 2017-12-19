@@ -8,9 +8,15 @@ import { Ng2SmartTableModule, LocalDataSource } from 'ng2-smart-table';
 })
 export class MyAccountComponent implements OnInit {
   source: LocalDataSource;
-  
+  customerDetails: any;
+  items:any = {};
   constructor() { 
     this.source = new LocalDataSource(this.data);
+    this.customerDetails = {
+      accountName:'test user',
+      accountNumber:'34057934',
+      accountAddress:'Hno.123, teachers colony, Begumper, Hyderabad -500016'
+    }
   }
 
   ngOnInit() {
@@ -79,7 +85,19 @@ export class MyAccountComponent implements OnInit {
         title: 'Payment Status',
         filter: false
       }
-    }
+    },
+    actions: {
+      add: false,
+      edit: false,
+      delete: false,
+      position: 'right',
+      custom: [
+        {
+          name: 'view',
+          title: 'view ',
+        },
+      ],
+    },
   };
 
   data = [
