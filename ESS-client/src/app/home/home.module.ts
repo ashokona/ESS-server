@@ -11,6 +11,8 @@ import { OrderStatusComponent } from './components/order-status/order-status.com
 import { SubmitRmaformsComponent } from './components/submit-rmaforms/submit-rmaforms.component';
 import { ElectionFormDataComponent } from './components/electionforms/election-form-data/election-form-data.component';
 import {BreadcrumbModule,MenuItem} from 'primeng/primeng';
+import { CustomerDetailsComponent } from './components/my-account/customer-details/customer-details.component';
+import { AccountDetailsComponent } from './components/my-account/account-details/account-details.component';
 
 
 @NgModule({
@@ -28,7 +30,9 @@ import {BreadcrumbModule,MenuItem} from 'primeng/primeng';
     MyAccountComponent,
     OrderStatusComponent,
     SubmitRmaformsComponent,
-    ElectionFormDataComponent
+    ElectionFormDataComponent,
+    CustomerDetailsComponent,
+    AccountDetailsComponent
   ]
 })
 export class HomeModule { }

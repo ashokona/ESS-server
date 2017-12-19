@@ -9,10 +9,12 @@ import { SharedModule } from './shared/shared.module';
 
 import {BreadcrumbModule,MenuItem} from 'primeng/primeng';
 import { AppComponent } from './app.component';
+import { LoginComponent } from './login/login.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
