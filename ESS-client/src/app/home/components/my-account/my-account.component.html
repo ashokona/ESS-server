@@ -6,15 +6,6 @@
                 <p-breadcrumb [model]="items"></p-breadcrumb>
 
             </div>
-            <!-- <div class="date-main col-sm-5">
-	            <div class="col-sm-6">
-	                <span class="date-head">Created Date : </span><span class="date-text">01/11/2017</span>
-	            </div>
-	            <div class="col-sm-6">
-	                <span class="date-head">Modified Date : </span><span class="date-text">28/11/2017</span>
-	            </div>
-	        </div> -->
-
         </div>
     </div>
     <div class="container">
@@ -76,6 +67,7 @@
                             <div class="data-table-main">
                                 <input #search class="search" type="text" placeholder="Search..." (keydown.enter)="onSearch(search.value)">
                                 <ng2-smart-table [settings]="settings" [source]="source"></ng2-smart-table>
+
                             </div>
                         </div>
                     </div>
