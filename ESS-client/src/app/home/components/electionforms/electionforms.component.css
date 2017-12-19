@@ -1,0 +1,78 @@
+.header-main1 { background: #113d5a; padding: 30px 0px; }
+.header-main1 h1 { margin: 0px; color: #fff; }
+.header-main1 h1 i { padding-right: 15px; }
+.table-main { padding: 30px 0px; }
+.election-table-main { padding: 20px 30px; background-color: #fff; }
+.election-table-main
+{
+  	position:relative;       
+    -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+       -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+            box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+.election-table-main:before, .election-table-main:after
+{
+	content:"";
+    position:absolute; 
+    z-index:-1;
+    -webkit-box-shadow:0 0 20px rgba(0,0,0,0.8);
+    -moz-box-shadow:0 0 20px rgba(0,0,0,0.8);
+    box-shadow:0 0 20px rgba(0,0,0,0.8);
+    top:50%;
+    bottom:0;
+    left:10px;
+    right:10px;
+    -moz-border-radius:100px / 10px;
+    border-radius:100px / 10px;
+} 
+.election-table-main:after
+{
+	right:10px; 
+    left:auto;
+    -webkit-transform:skew(8deg) rotate(3deg); 
+       -moz-transform:skew(8deg) rotate(3deg);     
+        -ms-transform:skew(8deg) rotate(3deg);     
+         -o-transform:skew(8deg) rotate(3deg); 
+            transform:skew(8deg) rotate(3deg);
+}
+.election-table-main table tbody tr td, .election-table-main table thead tr th { border: 0px; }
+.election-table-starts .table { border: 0px; }
+.election-table-starts .table tbody tr:nth-of-type(odd) td:first-child { border-right: 1px solid #fff; }
+.election-table-starts .table tbody tr:nth-of-type(odd) td:last-child { border-left: 1px solid #fff; }
+.election-table-starts .table tbody tr:nth-of-type(even) td:first-child { border-right: 1px solid #f1f0f5; }
+.election-table-starts .table tbody tr:nth-of-type(even) td:last-child { border-left: 1px solid #f1f0f5; }
+.election-table-starts .table-striped>tbody>tr:nth-of-type(odd) {
+    background-color: #f1f0f5;
+}
+.table-search input, .table-search span { border: 0px;
+    box-shadow: none; background-color: transparent; font-style: italic;
+    border-bottom: 1px solid #ddd;
+    border-radius: 0px; }
+.election-table-main .table-search { padding: 15px 0px 15px 0px; }
+.table-main thead tr { background-color: transparent; }
+.table-main thead tr th { color: #113d5a; padding: 20px 15px; }
+.table-main tbody tr td { padding: 15px 15px; }
+.star-icon i { color: #F1BD2A; font-size: 18px; line-height: 22px; padding: 6px 0px; }
+.star-icons i { text-align: right; width: 100%; }
+
+
+@media only screen and (max-width: 767px) {
+.election-form-container { padding: 0px; }
+.table-main { padding: 10px 0px; }
+.election-table-main { padding: 0px 10px; }
+.election-table-main { overflow-x: auto; }
+.table-search { padding-bottom: 0px; }
+.election-table-starts .table tr th, .election-table-starts .table tr td { padding: 10px; font-size: 13px; }
+}
+
+
+
+
+
+
+
+
+
+
+
+

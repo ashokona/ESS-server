@@ -1,0 +1,101 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700');
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+li,
+a,
+p,
+span,
+div {
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+/*.container-fluid { padding: 0px;}*/
+
+body {
+    background-color: #F5F7FA;
+}
+
+.fixedheader {
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+    top: 0;
+    transition: width 2s;
+    -webkit-transition: width 2s;
+}
+
+.fixedheader nav.navbar {
+    padding: 5px 0px;
+}
+
+.fixedheader .logo {
+    padding: 0px 0px 0px 15px !important;
+}
+
+.fixedheader .logo img {
+    width: 50px !important;
+}
+
+.fixedheader ul.navbar-nav {
+    padding: 10px 0px !important;
+}
+
+.header-main {
+    position: relative;
+}
+
+@media only screen and (max-width: 767px) {
+    .header-main1 {
+        padding: 10px 0px !important;
+    }
+    .header-main1 h1 {
+        font-size: 20px;
+        line-height: 28px;
+    }
+    .header-main1 .col-sm-7 {
+        padding: 0px;
+    }
+}
+
+@media only screen and (max-width: 1023px) and (min-width: 768px) {
+    .header-main1 {
+        padding: 20px 0px !important;
+    }
+    .header-main1 h1 {
+        font-size: 32px;
+        line-height: 38px;
+    }
+    .table-main {
+        padding: 15px 0px !important;
+    }
+}
+
+
+/* ui-breadcrumb ui-widget ui-widget-header ui-helper-clearfix ui-corner-all */
+
+.ui-breadcrumb ul li {
+    display: inline-block;
+    color: #fff;
+}
+
+.ui-breadcrumb ul li span {
+    display: inline-block;
+    color: #fff;
+}
+
+.box-icon i {
+    color: #3ea9e0 !important;
+}
+
+.divider {
+    background-color: #f5b324 !important;
+}
