@@ -8,10 +8,10 @@
 .navbar-brand { height: auto; padding: 5px 15px; }
 ul.navbar-nav { padding: 30px 0px; }
 ul.navbar-nav li { padding: 0px 15px; }
-ul.navbar-nav li a { padding: 2px 0px; color: #000; font-size: 15px; }
+ul.navbar-nav li a { padding: 2px 0px; color: #000; font-size: 16px; }
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav li a:hover {
-    background-color: transparent; color: #113d5a;
-    border-bottom: 2px solid #113d5a; }
+    background-color: transparent; color: #003c5b;
+    border-bottom: 2px solid #003c5b; }
 .header-main { background-color: #fff; }
 .header-main nav.nav-bar { padding: 5px 0px; }
 .header-main {

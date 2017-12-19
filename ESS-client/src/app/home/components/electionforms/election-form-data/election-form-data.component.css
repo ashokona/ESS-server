@@ -1,14 +1,14 @@
-.header-main1 { background: #113d5a; padding: 30px 0px; }
+.header-main1 { background: #003c5b; padding: 30px 0px; }
 .header-main1 h1 { margin: 0px; color: #fff; }
 .header-main1 h1 i { padding-right: 15px; }
 .table-main thead tr { background-color: rgba(0,60,93,0.75); }
 .table-main thead tr th { color: #fff; padding: 12px 15px; }
 .table-main tbody tr td { padding: 10px 15px; }
 .star-icon i { color: #F1BD2A; font-size: 18px; line-height: 22px; padding: 6px 0px; }
-.star-icon i.fa-question-circle { color: #113d5a; padding-left: 5px; }
+.star-icon i.fa-question-circle { color: #003c5b; padding-left: 5px; }
 .date-main { padding: 9px 0px; }
 .date-main span { color: #fff; }
-.date-main .date-head { font-weight: bold; }
+.date-main .date-head { font-weight: normal; font-family: 'Calibri-bold' !important; }
 .election-data-main { padding-bottom: 30px; }
 .election-btns {  padding: 30px 0px 15px 0px;  }
 /*.election-btns button { background-color: rgba(0,60,93,0.75) !important;
@@ -24,7 +24,7 @@
  .election-data-main { padding: 0px 15px 20px 15px; }
  .btn-type1 {
       border-radius: 4px;
-    border: 2px solid #cdcdcd;
+    border: 2px solid #dad9d7;
     text-transform: uppercase;
     transition: .3s ease-out;
     padding: 13px 35px;
@@ -32,18 +32,18 @@
     color: #000;
     font-size: 16px;
  }
-  .btn-type1:hover {  background-color: #cdcdcd !important; color: #fff; }
+  .btn-type1:hover {  background-color: #dad9d7 !important; color: #fff; }
   .btn-type2 {
       border-radius: 4px;
-    border: 2px solid #2aa0ec;
+    border: 2px solid #3ea9e0;
     text-transform: uppercase;
     transition: .3s ease-out;
     padding: 13px 35px;
-    background-color: #2aa0ec !important;
+    background-color: #3ea9e0 !important;
     color: #fff;
     font-size: 16px;
  }
-  .btn-type2:hover {  background-color: #212C5F !important; border: 2px solid #212C5F; color: #fff; }
+  .btn-type2:hover {  background-color: #003c5b !important; border: 2px solid #003c5b; color: #fff; }
 .election-btns-right .btn-type2 { margin-right: 15px; }
 .election-btns .col-sm-6 { padding: 0px; }
  .election-btns-right button {
@@ -56,14 +56,14 @@
     color: #fff; }
 .election-form-body { padding: 0px; background: white;
     padding: 15px 25px;
-    border-color: #cfdbe2 !important;
+    border-color: #a3c7e2 !important;
     border-top-width: 3px !important;
     border: 1px solid transparent;
     border-radius: 4px;
     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05); }
 .election-form-body .col-sm-6 { padding: 0px 7.5px; }
 .election-general-info-body { padding: 20px 0px; }
-.election-general-info-body tbody td { padding: 15px 20px; }
+.election-general-info-body tbody td { padding: 15px 20px;font-size: 16px; line-height: 22px; }
 .election-general-info-body tbody td { border: 0px; }
 .election-general-info-body .table-striped tbody tr:nth-of-type(odd) td:first-child { border-right: 1px solid #fff; border-left: 1px solid #fff; }
 .election-general-info-body .table-striped tbody tr:nth-of-type(even) td:first-child { border-right: 1px solid #f9f9f9; border-left: 1px solid #f9f9f9; }
@@ -72,14 +72,14 @@
 .election-general-info-body .table-bordered { border: 0px; }
 .election-form-body ul.nav-pills { padding: 10px 0px; }
 .election-form-body ul.nav-pills li a { background-color: transparent;
-    color: #000; padding: 0px; padding-bottom: 8px;
+    color: #000; padding: 0px; padding-bottom: 6px;
     border-bottom: 2px solid #ddd !important;
-    font-size: 18px; border-radius: 0px;border: 0px; margin-right: 35px;}
-.election-form-body ul.nav-pills li.active a, .election-form-body ul.nav-pills li:hover a { border-bottom: 2px solid #113d5a !important;
- color: #113d5a; }
+    font-size: 19px; border-radius: 0px;border: 0px; margin-right: 35px;}
+.election-form-body ul.nav-pills li.active a, .election-form-body ul.nav-pills li:hover a { border-bottom: 2px solid #003c5b !important;
+ color: #003c5b; }
 .election-form-body ul.nav-tabs { border-bottom: 0px; }
 .nav-side-menu {
-  border-color: #cfdbe2 !important;
+  border-color: #a3c7e2 !important;
     border-top-width: 3px !important;
   overflow: auto;
   font-size: 12px;
@@ -99,7 +99,7 @@
   display: block;
   text-align: center;
   font-size: 20px;
-   color: #113d5a;
+   color: #003c5b;
 }
 .nav-side-menu .toggle-btn {
   display: none;
@@ -165,6 +165,7 @@
 .nav-side-menu li a {
   text-decoration: none;
   color: #000;
+  font-size: 14px;
 }
 .nav-side-menu li a i {
   padding-left: 10px;

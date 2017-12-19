@@ -1,22 +1,36 @@
 /* You can add global styles to this file, and also import other style files */
 
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700');
+@font-face {
+    font-family: 'calibri';
+    src: url(assets/fonts/Calibri.ttf); 
+}
+@font-face {
+    font-family: 'calibri-bold';
+    src: url(assets/fonts/CalibriBold.ttf); 
+}
+
 body,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
 ul,
 li,
 a,
 p,
 span,
 div {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'calibri' !important;
+    letter-spacing: 0.12px !important;
 }
-
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'calibri-bold' !important;
+    letter-spacing: 0.5px;
+}
+p { font-size: 16px; line-height: 22px; }
+a { color: #003c5b; }
 
 /*.container-fluid { padding: 0px;}*/
 
