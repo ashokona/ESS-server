@@ -2,6 +2,9 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { SharedModule } from '../shared/shared.module';
 import { HomeRoutingModule } from './home-routing.module';
+
+import { Ng2SmartTableModule } from 'ng2-smart-table';
+
 import { HomeComponent } from './home.component';
 import { MainComponent } from './components/main/main.component';
 import { ElectionformsComponent } from './components/electionforms/electionforms.component';
@@ -20,7 +23,8 @@ import { AccountDetailsComponent } from './components/my-account/account-details
     CommonModule,
     HomeRoutingModule,
     SharedModule,
-    BreadcrumbModule
+    BreadcrumbModule,
+    Ng2SmartTableModule
   ],
   declarations: [
     HomeComponent,

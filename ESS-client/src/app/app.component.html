@@ -1,7 +1,7 @@
 <div class="container-fluid">
-    <app-header></app-header>
+    <app-header *ngIf="removeHeader()"></app-header>
     <div class="content-main">
         <router-outlet></router-outlet>
-        <app-footer></app-footer>
+        <app-footer *ngIf="removeFooter()"></app-footer>
     </div>
 </div>
