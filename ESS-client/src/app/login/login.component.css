@@ -36,7 +36,7 @@
     float: right; }
 input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill {
     background-color: transparent !important; }
-.form-control:focus { box-shadow: none; border-color: #fe4a21; }
+.form-control:focus { box-shadow: none; border-color: #fe4a21 !important; }
 .login-form .form-group { padding-bottom: 10px; margin-bottom: 15px; }
 ::placeholder {
     color: #000 !important;

@@ -20,7 +20,7 @@ const routes: Routes = [
       { path:'mydocuments', component:MyDocumentsComponent},
       { path:'myaccount', component:MyAccountComponent},
       { path:'orderstatus', component:OrderStatusComponent},
-      { path:'submitrmaforms', component:SubmitRmaformsComponent}
+      { path:'submitrmaforms', component:SubmitRmaformsComponent},
     ]
   }
 ];

@@ -9,7 +9,7 @@
 .date-main { padding: 9px 0px; }
 .date-main span { color: #fff; }
 .date-main .date-head { font-weight: bold; }
-.election-data-main { padding-bottom: 30px; }
+.election-data-main { padding: 30px 0px !important; }
 .election-btns {  padding: 30px 0px 15px 0px;  }
 /*.election-btns button { background-color: rgba(0,60,93,0.75) !important;
     background-color: transparent;
@@ -21,10 +21,52 @@
  	background-color: rgba(0,60,93,1) !important;
  	color: #fff;
  }*/
+ .login-form h3 { text-align: center;
+    margin: 0px;
+    font-size: 32px;
+    /* border-bottom: 2px solid #eaeaea; */
+    margin-bottom: 20px;
+    color: #000;
+    line-height: 45px;
+    font-weight: bold;
+    text-transform: uppercase; }
+ .login-form input, .login-form textarea { padding: 6px 0; box-shadow: none;
+    border-radius: 0; color: #000;
+    border-width: 0 0 1px 0;
+    border-color: #dedede;
+    background-color: transparent; }
+.login-form input.error { 
+    border-color: #fe4a21;
+    box-shadow: none; }
+.form-validation { font-size: 11px; font-style: italic;
+    line-height: 11px;
+    color: #fe4a21;
+    margin-top: 2px;
+    transition: .3s;
+    border-color: #fe4a21;
+    float: right; }
+input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill {
+    background-color: transparent !important; }
+.form-control:focus { box-shadow: none; border-color: #fe4a21 !important; }
+.login-form .form-group { padding-bottom: 10px; margin-bottom: 15px; }
+::placeholder {
+    color: #000 !important;
+    opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color: #000 !important;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+   color: #000 !important;
+}
+.edit-btn button { float: right; }
+.edit-btn { padding: 15px 0px; }
  .election-data-main { padding: 0px 15px 20px 15px; }
  .btn-type1 {
       border-radius: 4px;
-    border: 2px solid #cdcdcd;
+    border: 2px solid #dad9d7;
     text-transform: uppercase;
     transition: .3s ease-out;
     padding: 13px 35px;
@@ -32,18 +74,18 @@
     color: #000;
     font-size: 16px;
  }
-  .btn-type1:hover {  background-color: #cdcdcd !important; color: #fff; }
+  .btn-type1:hover {  background-color: #dad9d7 !important; color: #fff; }
   .btn-type2 {
       border-radius: 4px;
-    border: 2px solid #2aa0ec;
+    border: 2px solid #6ca442;
     text-transform: uppercase;
     transition: .3s ease-out;
     padding: 13px 35px;
-    background-color: #2aa0ec !important;
+    background-color: #6ca442 !important;
     color: #fff;
     font-size: 16px;
  }
-  .btn-type2:hover {  background-color: #212C5F !important; border: 2px solid #212C5F; color: #fff; }
+  .btn-type2:hover {  background-color: #5d7e96 !important; border: 2px solid #5d7e96; color: #fff; }
 .election-btns-right .btn-type2 { margin-right: 15px; }
 .election-btns .col-sm-6 { padding: 0px; }
  .election-btns-right button {
@@ -70,14 +112,13 @@
 .election-general-info-body .table-striped tbody tr:nth-of-type(even) td:last-child { border-right: 1px solid #f9f9f9; }
 .election-general-info-body .table-striped tbody tr:nth-of-type(odd) td:last-child { border-right: 1px solid #fff; }
 .election-general-info-body .table-bordered { border: 0px; }
-.election-form-body ul.nav-pills { padding: 10px 0px; }
+.election-form-body ul.nav-pills { padding: 10px 0px 0px 0px; }
 .election-form-body ul.nav-pills li a { background-color: transparent;
-    color: #000; padding: 0px; padding-bottom: 8px;
-    border-bottom: 2px solid #ddd !important;
+    color: #000; padding: 0px; padding-bottom: 9px;
     font-size: 18px; border-radius: 0px;border: 0px; margin-right: 35px;}
-.election-form-body ul.nav-pills li.active a, .election-form-body ul.nav-pills li:hover a { border-bottom: 2px solid #113d5a !important;
- color: #113d5a; }
-.election-form-body ul.nav-tabs { border-bottom: 0px; }
+.election-form-body ul.nav-pills li.active a span, .election-form-body ul.nav-pills li:hover a span { border-bottom: 2px solid #113d5a !important;
+ color: #113d5a; padding-bottom: 10px; }
+.election-form-body ul.nav-tabs { border-bottom: 2px solid #eaeaea; }
 .nav-side-menu {
   border-color: #cfdbe2 !important;
     border-top-width: 3px !important;
@@ -223,6 +264,8 @@
     min-height: 650px;
   }
   .election-data-main .col-sm-3 { padding-left: 0px; }
+  .mya-right { padding-left: 35px !important; }
+  .mya-left { padding-right: 35px !important; }
 }
 body {
   margin: 0px;
