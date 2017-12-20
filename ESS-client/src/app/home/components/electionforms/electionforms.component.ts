@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import {MenuItem} from 'primeng/primeng';
+import { MenuItem } from 'primeng/primeng';
 
 
 @Component({
@@ -17,11 +17,11 @@ export class ElectionformsComponent implements OnInit {
 
   ngOnInit() {
     this.items = [
-      {label:'home', routerLink: ['']},
-      {label:'Election Forms'}
-  ];
-  
-  // this.home = {icon: 'fa fa-home'};
+      { label: 'home', routerLink: [''] },
+      { label: 'Election Forms' }
+    ];
+
+    // this.home = {icon: 'fa fa-home'};
   }
 
 }

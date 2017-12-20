@@ -4,6 +4,7 @@ import { RouterModule } from '@angular/router';
 
 import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { ResetPasswordComponent } from './components/reset-password/reset-password.component';
 
 @NgModule({
   imports: [
@@ -12,11 +13,13 @@ import { FooterComponent } from './components/footer/footer.component';
   ],
   exports : [
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    ResetPasswordComponent
   ],
   declarations: [ 
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    ResetPasswordComponent
   ],
   providers:[
  
