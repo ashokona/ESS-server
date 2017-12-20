@@ -1,3 +1,84 @@
-<p>
-  order-status works!
-</p>
+<div class="row container-fluid myaccount-main">
+    <div class="row header-main1">
+        <div class="container">
+            <div class="col-sm-7">
+                <h1><i class="fa fa-angle-double-right" aria-hidden="true"></i>Order Status</h1>
+                <p-breadcrumb [model]="items"></p-breadcrumb>
+
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row election-data-main">
+            <div class="col-sm-12 election-form-body">
+                <div class="row search-main">
+                    <form class="form-horizontal" action="/action_page.php">
+                        <div class="col-sm-4">
+                            <div class="form-group">
+                              <div class="col-sm-12">
+                                <input type="email" class="form-control" id="email" placeholder="Description :" name="email">
+                              </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="form-group">
+                              <div class="col-sm-12">
+                                <input type="email" class="form-control" id="email" placeholder="Sales Price :" name="email">
+                              </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="form-group">
+                              <div class="col-sm-12">
+                                <input type="email" class="form-control" id="email" placeholder="Item Code :" name="email">
+                              </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="row">
+                    <div class="row data-table-main col-sm-12">
+                        <div class="col-sm-4 order-btnmain">
+                            <button type="button" class="btn btn-md order-btn1">Close</button>
+                            <button type="button" class="btn btn-md order-btn2">Clear</button>
+                        </div>
+                        <div class="col-sm-4 col-sm-offset-4 text-right">
+                            <button type="button" class="btn btn-md order-btn1">Reset</button>
+                            <button type="button" class="btn btn-md order-btn2">Search</button>
+                        </div>
+                    </div>
+                    <div class="order-table-main col-sm-12">
+                        <div class="election-general-info-body table-responsive">
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th>Product</th>
+                                        <th>Document</th>
+                                        <th>Date</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Ballot On Demand</td>
+                                        <td>ESS ballot on demand BOD setup and printing Procedure v7.5.3</td>
+                                        <td>12/02/2014</td>
+                                    </tr>
+                                    <tr>
+                                        <td>DS200</td>
+                                        <td>Unity 3.1.0 or ES&S System operations</td>
+                                        <td>22/04/2014</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Audit Manager</td>
+                                        <td>Audit Manager Operations system Manuals v7.5.2</td>
+                                        <td>24/04/2016</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
