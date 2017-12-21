@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { MenuItem } from 'primeng/primeng';
 
 @Component({
   selector: 'app-customer-depot-repair',
@@ -6,8 +7,14 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./customer-depot-repair.component.css']
 })
 export class CustomerDepotRepairComponent implements OnInit {
-
-  constructor() { }
+  items: MenuItem[];
+  home: MenuItem;
+  constructor() {
+    this.items = [
+      { label: 'home', routerLink: [''] },
+      { label: 'Depot Repair' }
+    ];
+   }
 
   ngOnInit() {
   }
