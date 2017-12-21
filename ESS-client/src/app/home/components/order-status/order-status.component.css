@@ -108,6 +108,9 @@
 .data-table-main.col-sm-12 .col-sm-offset-4 { padding-right: 0px; }
 .order-table-main tbody tr:nth-of-type(even) {
     background-color: #f1f0f5; }
+.election-general-info-body .checkbox { text-align: center; }
+.election-general-info-body .checkbox input { margin-top: -13px; }
+
 /*.search-main .col-sm-4 { padding-left: 0px; padding-right: 0px; }*/
 
 /*.election-btns button { background-color: rgba(0,60,93,0.75) !important;

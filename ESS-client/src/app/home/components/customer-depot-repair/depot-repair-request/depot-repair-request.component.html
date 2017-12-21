@@ -1,3 +1,668 @@
-<p>
-  depot-repair-request works!
-</p>
+<div class="row container-fluid myaccount-main">
+    <div class="row header-main1">
+        <div class="container">
+            <div class="col-sm-7">
+                <h1><i class="fa fa-angle-double-right" aria-hidden="true"></i>Depot Repair Request</h1>
+                <p-breadcrumb [model]="items"></p-breadcrumb>
+
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row election-data-main">
+            <div class="col-sm-12 election-form-body">
+            	<div class="col-sm-3 depot-left">
+            		<div class="depot-text">
+            			<p>Note, must display on All Pages</p>
+            			<ul>
+            				<li>Please allow 3-4 weeks from the date of pick up for all repairs.</li>
+							<li>All equipment being returned for repair must be properly packed in
+							the original shipping box with foam inserts unless otherwise
+							specified.</li>
+							<li>ES&S is not liable for any damages that occur to equipment in
+							transit to ES&S that is not properly packed as direct by ES&S, or
+							packed in something other than the original shipping box.</li>
+							<li>Equipment being returned for repair is not insured by ES&S. If
+							you would like to insure your equipment being returned for repair,
+							please refer to the insurance section.</li>
+							<li>ES&S is not liability for any shipments lost by UPS while in transit.</li>
+							<li>If you request Boxes for your equipment, no pick up will be
+							scheduled until boxes are received and ALL units are ready for
+							pickup.</li>
+							<li>All boxes must contain your Work Order number on the outside.</li>
+						</ul>
+            		</div>
+            	</div>
+            	<div class="col-sm-9 depot-right">
+            		<div class="row data-table-main order-btnmain1">
+                        <div class="col-sm-4 order-btnmain">
+                            <button type="button" class="btn btn-md order-btn1"><< Go Back</button>
+                        </div>
+                        <div class="col-sm-4 col-sm-offset-4 text-right">
+                            <button type="button" class="btn btn-md order-btn1">Cancel</button>
+                            <button type="button" class="btn btn-md order-btn2">Save</button>
+                        </div>
+                    </div>
+            		<ul class="nav nav-tabs nav-pills nav-justified">
+	                    <li class="active"><a data-toggle="tab" href="#home"><span>Manuals</span></a></li>
+	                    <li><a data-toggle="tab" href="#menu1"><span>Tech Bulletins</span></a></li>
+	                </ul>
+            		<div class="tab-content">
+	                    <div id="home" class="tab-pane fade in active">
+	                    	<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+						        <div class="panel panel-default">
+						            <div class="panel-heading" role="tab" id="headingOne">
+						                <h4 class="panel-title">
+						                    <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+						                        <i class="more-less glyphicon glyphicon-plus"></i>
+						                        Collapsible Group Item #1
+						                    </a>
+						                </h4>
+						            </div>
+						            <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+						                <div class="panel-body">
+					                       <div class="election-general-info-body table-responsive">
+					                            <table class="table">
+					                                <thead>
+					                                    <tr>
+					                                        <th>Product</th>
+					                                        <th>Document</th>
+					                                        <th>Date</th>
+					                                    </tr>
+					                                </thead>
+					                                <tbody>
+					                                    <tr>
+					                                        <td>Ballot On Demand</td>
+					                                        <td>ESS ballot on demand BOD setup and printing Procedure v7.5.3</td>
+					                                        <td>
+					                                        	<div class="checkbox">
+																  <label>
+																  	<input type="checkbox" value=""></label>
+																</div>
+															</td>
+					                                    </tr>
+					                                    <tr>
+					                                        <td>DS200</td>
+					                                        <td>Unity 3.1.0 or ES&S System operations</td>
+					                                        <td>
+					                                        	<div class="checkbox">
+																  <label>
+																  	<input type="checkbox" value=""></label>
+																</div>
+					                                        </td>
+					                                    </tr>
+					                                    <tr>
+					                                        <td>Audit Manager</td>
+					                                        <td>Audit Manager Operations system Manuals v7.5.2</td>
+					                                        <td>
+					                                        	<div class="checkbox">
+																  <label>
+																  	<input type="checkbox" value=""></label>
+																</div>
+					                                        </td>
+					                                    </tr>
+					                                </tbody>
+					                            </table>
+					                        </div>
+						                </div>
+						            </div>
+						        </div>
+						        <div class="panel panel-default">
+						            <div class="panel-heading" role="tab" id="headingTwo">
+						                <h4 class="panel-title">
+						                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+						                        <i class="more-less glyphicon glyphicon-plus"></i>
+						                        Collapsible Group Item #2
+						                    </a>
+						                </h4>
+						            </div>
+						            <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+						                <div class="panel-body">
+						                    <div class="election-general-info-body table-responsive">
+					                            <table class="table">
+					                                <thead>
+					                                    <tr>
+					                                        <th>Product</th>
+					                                        <th>Document</th>
+					                                        <th>Date</th>
+					                                    </tr>
+					                                </thead>
+					                                <tbody>
+					                                    <tr>
+					                                        <td>Ballot On Demand</td>
+					                                        <td>ESS ballot on demand BOD setup and printing Procedure v7.5.3</td>
+					                                        <td>
+					                                        	<div class="checkbox">
+																  <label>
+																  	<input type="checkbox" value=""></label>
+																</div>
+															</td>
+					                                    </tr>
+					                                    <tr>
+					                                        <td>DS200</td>
+					                                        <td>Unity 3.1.0 or ES&S System operations</td>
+					                                        <td>
+					                                        	<div class="checkbox">
+																  <label>
+																  	<input type="checkbox" value=""></label>
+																</div>
+					                                        </td>
+					                                    </tr>
+					                                    <tr>
+					                                        <td>Audit Manager</td>
+					                                        <td>Audit Manager Operations system Manuals v7.5.2</td>
+					                                        <td>
+					                                        	<div class="checkbox">
+																  <label>
+																  	<input type="checkbox" value=""></label>
+																</div>
+					                                        </td>
+					                                    </tr>
+					                                </tbody>
+					                            </table>
+					                        </div>
+						                </div>
+						            </div>
+						        </div>
+						        <div class="panel panel-default">
+						            <div class="panel-heading" role="tab" id="headingThree">
+						                <h4 class="panel-title">
+						                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+						                        <i class="more-less glyphicon glyphicon-plus"></i>
+						                        Collapsible Group Item #3
+						                    </a>
+						                </h4>
+						            </div>
+						            <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+						                <div class="panel-body">
+						                    <div class="election-general-info-body table-responsive">
+					                            <table class="table">
+					                                <thead>
+					                                    <tr>
+					                                        <th>Product</th>
+					                                        <th>Document</th>
+					                                        <th>Date</th>
+					                                    </tr>
+					                                </thead>
+					                                <tbody>
+					                                    <tr>
+					                                        <td>Ballot On Demand</td>
+					                                        <td>ESS ballot on demand BOD setup and printing Procedure v7.5.3</td>
+					                                        <td>
+					                                        	<div class="checkbox">
+																  <label>
+																  	<input type="checkbox" value=""></label>
+																</div>
+															</td>
+					                                    </tr>
+					                                    <tr>
+					                                        <td>DS200</td>
+					                                        <td>Unity 3.1.0 or ES&S System operations</td>
+					                                        <td>
+					                                        	<div class="checkbox">
+																  <label>
+																  	<input type="checkbox" value=""></label>
+																</div>
+					                                        </td>
+					                                    </tr>
+					                                    <tr>
+					                                        <td>Audit Manager</td>
+					                                        <td>Audit Manager Operations system Manuals v7.5.2</td>
+					                                        <td>
+					                                        	<div class="checkbox">
+																  <label>
+																  	<input type="checkbox" value=""></label>
+																</div>
+					                                        </td>
+					                                    </tr>
+					                                </tbody>
+					                            </table>
+					                        </div>
+						                </div>
+						            </div>
+						        </div>
+						    </div><!-- panel-group -->
+	                    </div>
+	                    <div id="menu1" class="tab-pane fade">
+	                        <div class="election-general-info-body table-responsive">
+	                            <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+							        <div class="panel panel-default">
+							            <div class="panel-heading" role="tab" id="headingOne">
+							                <h4 class="panel-title">
+							                    <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne1" aria-expanded="true" aria-controls="collapseOne">
+							                        <i class="more-less glyphicon glyphicon-plus"></i>
+							                        Collapsible Group Item #1
+							                    </a>
+							                </h4>
+							            </div>
+							            <div id="collapseOne1" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+							                <div class="panel-body">
+						                       <div class="election-general-info-body table-responsive">
+						                            <table class="table">
+						                                <thead>
+						                                    <tr>
+						                                        <th>Product</th>
+						                                        <th>Document</th>
+						                                        <th>Date</th>
+						                                    </tr>
+						                                </thead>
+						                                <tbody>
+						                                    <tr>
+						                                        <td>Ballot On Demand</td>
+						                                        <td>ESS ballot on demand BOD setup and printing Procedure v7.5.3</td>
+						                                        <td>
+						                                        	<div class="checkbox">
+																	  <label>
+																	  	<input type="checkbox" value=""></label>
+																	</div>
+																</td>
+						                                    </tr>
+						                                    <tr>
+						                                        <td>DS200</td>
+						                                        <td>Unity 3.1.0 or ES&S System operations</td>
+						                                        <td>
+						                                        	<div class="checkbox">
+																	  <label>
+																	  	<input type="checkbox" value=""></label>
+																	</div>
+						                                        </td>
+						                                    </tr>
+						                                    <tr>
+						                                        <td>Audit Manager</td>
+						                                        <td>Audit Manager Operations system Manuals v7.5.2</td>
+						                                        <td>
+						                                        	<div class="checkbox">
+																	  <label>
+																	  	<input type="checkbox" value=""></label>
+																	</div>
+						                                        </td>
+						                                    </tr>
+						                                </tbody>
+						                            </table>
+						                        </div>
+							                </div>
+							            </div>
+							        </div>
+							        <div class="panel panel-default">
+							            <div class="panel-heading" role="tab" id="headingTwo">
+							                <h4 class="panel-title">
+							                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo2" aria-expanded="false" aria-controls="collapseTwo">
+							                        <i class="more-less glyphicon glyphicon-plus"></i>
+							                        Collapsible Group Item #2
+							                    </a>
+							                </h4>
+							            </div>
+							            <div id="collapseTwo2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+							                <div class="panel-body">
+							                    <div class="election-general-info-body table-responsive">
+						                            <table class="table">
+						                                <thead>
+						                                    <tr>
+						                                        <th>Product</th>
+						                                        <th>Document</th>
+						                                        <th>Date</th>
+						                                    </tr>
+						                                </thead>
+						                                <tbody>
+						                                    <tr>
+						                                        <td>Ballot On Demand</td>
+						                                        <td>ESS ballot on demand BOD setup and printing Procedure v7.5.3</td>
+						                                        <td>
+						                                        	<div class="checkbox">
+																	  <label>
+																	  	<input type="checkbox" value=""></label>
+																	</div>
+																</td>
+						                                    </tr>
+						                                    <tr>
+						                                        <td>DS200</td>
+						                                        <td>Unity 3.1.0 or ES&S System operations</td>
+						                                        <td>
+						                                        	<div class="checkbox">
+																	  <label>
+																	  	<input type="checkbox" value=""></label>
+																	</div>
+						                                        </td>
+						                                    </tr>
+						                                    <tr>
+						                                        <td>Audit Manager</td>
+						                                        <td>Audit Manager Operations system Manuals v7.5.2</td>
+						                                        <td>
+						                                        	<div class="checkbox">
+																	  <label>
+																	  	<input type="checkbox" value=""></label>
+																	</div>
+						                                        </td>
+						                                    </tr>
+						                                </tbody>
+						                            </table>
+						                        </div>
+							                </div>
+							            </div>
+							        </div>
+							        <div class="panel panel-default">
+							            <div class="panel-heading" role="tab" id="headingThree">
+							                <h4 class="panel-title">
+							                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree3" aria-expanded="false" aria-controls="collapseThree">
+							                        <i class="more-less glyphicon glyphicon-plus"></i>
+							                        Collapsible Group Item #3
+							                    </a>
+							                </h4>
+							            </div>
+							            <div id="collapseThree3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+							                <div class="panel-body">
+							                    <div class="election-general-info-body table-responsive">
+						                            <table class="table">
+						                                <thead>
+						                                    <tr>
+						                                        <th>Product</th>
+						                                        <th>Document</th>
+						                                        <th>Date</th>
+						                                    </tr>
+						                                </thead>
+						                                <tbody>
+						                                    <tr>
+						                                        <td>Ballot On Demand</td>
+						                                        <td>ESS ballot on demand BOD setup and printing Procedure v7.5.3</td>
+						                                        <td>
+						                                        	<div class="checkbox">
+																	  <label>
+																	  	<input type="checkbox" value=""></label>
+																	</div>
+																</td>
+						                                    </tr>
+						                                    <tr>
+						                                        <td>DS200</td>
+						                                        <td>Unity 3.1.0 or ES&S System operations</td>
+						                                        <td>
+						                                        	<div class="checkbox">
+																	  <label>
+																	  	<input type="checkbox" value=""></label>
+																	</div>
+						                                        </td>
+						                                    </tr>
+						                                    <tr>
+						                                        <td>Audit Manager</td>
+						                                        <td>Audit Manager Operations system Manuals v7.5.2</td>
+						                                        <td>
+						                                        	<div class="checkbox">
+																	  <label>
+																	  	<input type="checkbox" value=""></label>
+																	</div>
+						                                        </td>
+						                                    </tr>
+						                                </tbody>
+						                            </table>
+						                        </div>
+							                </div>
+							            </div>
+							        </div>
+							    </div><!-- panel-group -->
+	                        </div>
+	                    </div>
+	                    <form class="login-form">
+		                    <div class="election-general-info-body table-responsive">
+	                            <table class="table">
+	                                <thead>
+	                                    <tr>
+	                                        <th>Description</th>
+	                                        <th>Serial Number</th>
+	                                    </tr>
+	                                </thead>
+	                                <tbody>
+	                                    <tr>
+	                                        <td>Ballot On Demand</td>
+	                                        <td>ESS ballot on demand BOD setup and printing Procedure v7.5.3</td>
+	                                    </tr>
+	                                    <tr>
+	                                        <td>DS200</td>
+	                                        <td>Unity 3.1.0 or ES&S System operations</td>
+	                                    </tr>
+	                                    <tr>
+	                                        <td>Audit Manager</td>
+	                                        <td>Audit Manager Operations system Manuals v7.5.2</td>
+	                                    </tr>
+	                                </tbody>
+	                            </table>
+	                        </div>
+	                        <div class="row col-sm-12 coverage-type-main">
+	                        	<div class="coverage-type-head">
+	                        		<div class="col-sm-3">
+	                        			<p>Coverage Type : </p>
+	                        		</div>
+	                        		<div class="col-sm-4">
+	                        			<div class="form-group">
+										      <select class="form-control" id="sel1">
+										        <option>1</option>
+										        <option>2</option>
+										        <option>3</option>
+										        <option>4</option>
+										    </select>
+										</div>
+	                        		</div>
+	                        	</div>
+	                        	<div class="coverage-type-textarea">
+	                        		<div class="form-group">
+		                                <textarea class="form-control" rows="5" id="comment" placeholder="Coverage type textarea"></textarea>
+		                            </div>
+	                        	</div>
+	                        	<div class="customer-need">
+	                        		<div class="checkbox">
+									  <label>
+									  	<input type="checkbox" value="">Needs a box for that equipment ?
+									  </label>
+									  <p><a href="#">click here for more info</a></p>
+									</div>
+	                        	</div>
+	                        	<div class="customer-need">
+	                        		<div class="checkbox">
+									  <label>
+									  	<input type="checkbox" value="">Needs a box for that equipment ?
+									  </label>
+									  <p><a href="#">click here for more info</a></p>
+									</div>
+	                        	</div>
+	                        	<div class="address-pickup col-sm-12">
+	                        		<div class="col-sm-3">
+	                        			<p>Do you want to pick up</p>
+	                        		</div>
+	                        		<div class="col-sm-7">
+	                        			<div class="radio">
+									        <label class="radio-inline">
+										      <input type="radio" name="optradio">Yes
+										    </label>
+										    <label class="radio-inline">
+										      <input type="radio" name="optradio">No
+										    </label>
+									    </div>
+	                        		</div>
+	                        	</div>
+	                        	<div class="row address-box-main col-sm-12">
+	                        		<div class="col-sm-6">
+	                        			<div class="address-box add-1">
+	                        				<div class="well">
+									          <h4 class=""><span class="label pull-right">
+									          	<div class="checkbox">
+												  <label>
+												  	<input type="checkbox" value=""></label>
+												</div>
+									          </span>Address :</h4>
+									          <div class="address-text">
+									          	<p>
+									          		<b>Name</b>
+									          		<span>: Vinaykumar</span>
+									          	</p>
+									          	<p>
+									          		<b>H.No</b>
+									          		<span>: 4-31/1</span>
+									          	</p>
+									          	<p>
+									          		<b>Street </b>
+									          		<span>: Beside GPM</span>
+									          	</p>
+									          	<p>
+									          		<b>City</b>
+									          		<span>: Hyderabad</span>
+									          	</p>
+									          	<p>
+									          		<b>Zipcode</b>
+									          		<span>: 508001</span>
+									          	</p>
+									          </div>
+									        </div>
+	                        			</div>
+	                        		</div>
+	                        		<div class="col-sm-6">
+	                        			<div class="address-box">
+	                        				<div class="well">
+									          <h4 class=""><span class="label pull-right">
+									          	<div class="checkbox">
+												  <label>
+												  	<input type="checkbox" value=""></label>
+												</div>
+									          </span>Address :</h4>
+									          <div class="address-text">
+									          	<p>
+									          		<b>Name</b>
+									          		<span>: Vinaykumar</span>
+									          	</p>
+									          	<p>
+									          		<b>H.No</b>
+									          		<span>: 4-31/1</span>
+									          	</p>
+									          	<p>
+									          		<b>Street </b>
+									          		<span>: Beside GPM</span>
+									          	</p>
+									          	<p>
+									          		<b>City</b>
+									          		<span>: Hyderabad</span>
+									          	</p>
+									          	<p>
+									          		<b>Zipcode</b>
+									          		<span>: 508001</span>
+									          	</p>
+									          </div>
+									        </div>
+	                        			</div>
+	                        		</div>
+	                        	</div>
+	                        	<div class="address-pickup col-sm-12">
+	                        		<div class="col-sm-3">
+	                        			<p>Return Address</p>
+	                        		</div>
+	                        		<div class="col-sm-7">
+	                        			<div class="radio">
+									        <label class="radio-inline">
+										      <input type="radio" name="optradio">Yes
+										    </label>
+										    <label class="radio-inline">
+										      <input type="radio" name="optradio">No
+										    </label>
+									    </div>
+	                        		</div>
+	                        	</div>
+	                        	<div class="row address-box-main col-sm-12">
+	                        		<div class="col-sm-6">
+	                        			<div class="address-box add-1">
+	                        				<div class="well">
+									          <h4 class=""><span class="label pull-right">
+									          	<div class="checkbox">
+												  <label>
+												  	<input type="checkbox" value=""></label>
+												</div>
+									          </span>Address :</h4>
+									          <div class="address-text">
+									          	<p>
+									          		<b>Name</b>
+									          		<span>: Vinaykumar</span>
+									          	</p>
+									          	<p>
+									          		<b>H.No</b>
+									          		<span>: 4-31/1</span>
+									          	</p>
+									          	<p>
+									          		<b>Street </b>
+									          		<span>: Beside GPM</span>
+									          	</p>
+									          	<p>
+									          		<b>City</b>
+									          		<span>: Hyderabad</span>
+									          	</p>
+									          	<p>
+									          		<b>Zipcode</b>
+									          		<span>: 508001</span>
+									          	</p>
+									          </div>
+									        </div>
+	                        			</div>
+	                        		</div>
+	                        		<div class="col-sm-6">
+	                        			<div class="address-box">
+	                        				<div class="well">
+									          <h4 class=""><span class="label pull-right">
+									          	<div class="checkbox">
+												  <label>
+												  	<input type="checkbox" value=""></label>
+												</div>
+									          </span>Address :</h4>
+									          <div class="address-text">
+									          	<p>
+									          		<b>Name</b>
+									          		<span>: Vinaykumar</span>
+									          	</p>
+									          	<p>
+									          		<b>H.No</b>
+									          		<span>: 4-31/1</span>
+									          	</p>
+									          	<p>
+									          		<b>Street </b>
+									          		<span>: Beside GPM</span>
+									          	</p>
+									          	<p>
+									          		<b>City</b>
+									          		<span>: Hyderabad</span>
+									          	</p>
+									          	<p>
+									          		<b>Zipcode</b>
+									          		<span>: 508001</span>
+									          	</p>
+									          </div>
+									        </div>
+	                        			</div>
+	                        		</div>
+	                        	</div>
+	                        	<div class="row coverage-type-head">
+	                        		<div class="col-sm-12 contact-text">
+	                        			<p>Contact Person : </p>
+	                        		</div>
+	                        		<div class="row col-sm-12 contact-input">
+		                        		<div class="col-sm-6">
+		                        			<div class="form-group">
+				                                <div class="col-sm-12">
+				                                    <input type="email" class="form-control" id="email" placeholder="Enter Name" name="email">
+				                                </div>
+				                            </div>
+		                        		</div>
+		                        		<div class="col-sm-6">
+		                        			<div class="form-group">
+				                                <div class="col-sm-12">
+				                                    <input type="email" class="form-control" id="email" placeholder="Enter Phone Number" name="email">
+				                                </div>
+				                            </div>
+		                        		</div>
+		                        	</div>
+	                        	</div>
+	                        	<div class="row submit-btn col-sm-12">
+			                        <div class="text-right">
+			                            <button type="button" class="btn btn-md order-btn2">Submit</button>
+			                        </div>
+			                    </div>
+	                        </div>
+	                    </form>
+	                </div>
+            	</div>
+            </div>
+        </div>
+    </div>
+</div>
