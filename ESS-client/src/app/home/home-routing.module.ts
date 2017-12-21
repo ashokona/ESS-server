@@ -9,6 +9,8 @@ import { MyAccountComponent } from './components/my-account/my-account.component
 import { OrderStatusComponent } from './components/order-status/order-status.component';
 import { SubmitRmaformsComponent } from './components/submit-rmaforms/submit-rmaforms.component';
 import { ElectionFormDataComponent } from './components/electionforms/election-form-data/election-form-data.component';
+import { CustomerDepotRepairComponent } from './components/customer-depot-repair/customer-depot-repair.component';
+import { DepotRepairRequestComponent } from './components/customer-depot-repair/depot-repair-request/depot-repair-request.component';
 
 const routes: Routes = [
   {
@@ -21,6 +23,8 @@ const routes: Routes = [
       { path:'myaccount', component:MyAccountComponent},
       { path:'orderstatus', component:OrderStatusComponent},
       { path:'submitrmaforms', component:SubmitRmaformsComponent},
+      { path:'customerdepot', component:CustomerDepotRepairComponent },
+      { path:'repairdepot', component:DepotRepairRequestComponent },
     ]
   }
 ];

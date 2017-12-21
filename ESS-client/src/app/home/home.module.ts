@@ -16,6 +16,8 @@ import { ElectionFormDataComponent } from './components/electionforms/election-f
 import {BreadcrumbModule,MenuItem} from 'primeng/primeng';
 import { CustomerDetailsComponent } from './components/my-account/customer-details/customer-details.component';
 import { AccountDetailsComponent } from './components/my-account/account-details/account-details.component';
+import { CustomerDepotRepairComponent } from './components/customer-depot-repair/customer-depot-repair.component';
+import { DepotRepairRequestComponent } from './components/customer-depot-repair/depot-repair-request/depot-repair-request.component';
 
 
 @NgModule({
@@ -36,7 +38,9 @@ import { AccountDetailsComponent } from './components/my-account/account-details
     SubmitRmaformsComponent,
     ElectionFormDataComponent,
     CustomerDetailsComponent,
-    AccountDetailsComponent
+    AccountDetailsComponent,
+    CustomerDepotRepairComponent,
+    DepotRepairRequestComponent
   ]
 })
 export class HomeModule { }
