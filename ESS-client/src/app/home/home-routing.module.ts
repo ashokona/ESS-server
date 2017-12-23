@@ -11,6 +11,7 @@ import { SubmitRmaformsComponent } from './components/submit-rmaforms/submit-rma
 import { ElectionFormDataComponent } from './components/electionforms/election-form-data/election-form-data.component';
 import { CustomerDepotRepairComponent } from './components/customer-depot-repair/customer-depot-repair.component';
 import { DepotRepairRequestComponent } from './components/customer-depot-repair/depot-repair-request/depot-repair-request.component';
+import { ElectionOperationsFormsComponent } from './components/my-account/election-operations-forms/election-operations-forms.component';
 
 const routes: Routes = [
   {
@@ -25,6 +26,7 @@ const routes: Routes = [
       { path:'submitrmaforms', component:SubmitRmaformsComponent},
       { path:'customerdepot', component:CustomerDepotRepairComponent },
       { path:'repairdepot', component:DepotRepairRequestComponent },
+      { path:'electionoperation', component:ElectionOperationsFormsComponent },
     ]
   }
 ];

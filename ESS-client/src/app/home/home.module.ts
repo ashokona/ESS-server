@@ -18,6 +18,7 @@ import { CustomerDetailsComponent } from './components/my-account/customer-detai
 import { AccountDetailsComponent } from './components/my-account/account-details/account-details.component';
 import { CustomerDepotRepairComponent } from './components/customer-depot-repair/customer-depot-repair.component';
 import { DepotRepairRequestComponent } from './components/customer-depot-repair/depot-repair-request/depot-repair-request.component';
+import { ElectionOperationsFormsComponent } from './components/my-account/election-operations-forms/election-operations-forms.component';
 
 
 @NgModule({
@@ -40,7 +41,8 @@ import { DepotRepairRequestComponent } from './components/customer-depot-repair/
     CustomerDetailsComponent,
     AccountDetailsComponent,
     CustomerDepotRepairComponent,
-    DepotRepairRequestComponent
+    DepotRepairRequestComponent,
+    ElectionOperationsFormsComponent
   ]
 })
 export class HomeModule { }
