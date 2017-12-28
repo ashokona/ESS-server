@@ -9,22 +9,22 @@
     </div>
     <div class="container">
         <div class="row election-data-main">
-        	<div class="election-general-info-body">
+            <div class="election-general-info-body">
                 <div class="data-table-main">
                     <!-- <input #search class="search" type="text" placeholder="Search..." (keydown.enter)="onSearch(search.value)"> -->
                     <!-- <span class="search-btn"><i class="fa fa-share" aria-hidden="true"></i></span> -->
-                    <ng2-smart-table [settings]="settings" [source]="source"></ng2-smart-table>
+                    <ng2-smart-table [settings]="settings" (custom)="onCustom($event)" [source]="source"></ng2-smart-table>
                 </div>
             </div>
         </div>
         <div class="row election-operations-main">
-        	<div class="election-operations-head">
-        		<h3>Election Operations Forms</h3>
-        	</div>
-        	<div class="election-operations-body">
-        		<div class="row election-operations-form">
-        			<form class="login-form">
-        				<div class="row coverage-type-head">
+            <div class="election-operations-head">
+                <h3>Election Operations Forms</h3>
+            </div>
+            <div class="election-operations-body">
+                <div class="row election-operations-form">
+                    <form class="login-form">
+                        <div class="row coverage-type-head">
                             <div class="row col-sm-12 contact-input">
                                 <div class="col-sm-6">
                                     <div class="form-group">
@@ -43,7 +43,7 @@
                             </div>
                         </div>
                         <div class="col-sm-12 election-textarea">
-                        	<div class="form-group">
+                            <div class="form-group">
                                 <textarea class="form-control" rows="5" id="comment" placeholder="Coverage type textarea"></textarea>
                             </div>
                         </div>
@@ -52,9 +52,9 @@
                                 <button type="button" class="btn btn-md order-btn2">Submit</button>
                             </div>
                         </div>
-        			</form>
-        		</div>
-        	</div>
+                    </form>
+                </div>
+            </div>
         </div>
     </div>
 </div>

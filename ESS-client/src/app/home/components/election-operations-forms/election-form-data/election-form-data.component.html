@@ -19,7 +19,7 @@
 <div class="container">
     <div class="row election-btns">
         <div class="election-btns-left col-sm-5">
-            <button type="button" class="btn btn-type1"><i class="fa fa-angle-double-left" aria-hidden="true"></i> Go back</button>
+            <button type="button" class="btn btn-type1" [routerLink]="['/electionoperation']"><i class="fa fa-angle-double-left" aria-hidden="true"></i> Go back</button>
         </div>
         <div class="election-btns-right col-sm-7">
             <button type="button" class="btn btn-type1"><i class="fa fa-file-text-o" aria-hidden="true"></i> Forms Guide</button>
@@ -40,43 +40,66 @@
                 <div class="menu-list">
                     <ul id="menu-content" class="menu-content collapse out">
                         <li class="active">
-                            <a>
-                                <i class="fa fa-dashboard fa-lg"></i> Precision List (Done)
+                            <a [routerLink]="['/precinctlist']">
+                                <i class="fa fa-dashboard fa-lg"></i> Precinct List (T-60)
+                            </a>
+                        </li>
+                        <li>
+                            <a [routerLink]="['/contestscandidates']">
+                                <i class="fa fa-user fa-lg"></i> Contest & Candidates
+                            </a>
+                        </li>
+                        <li>
+                            <a [routerLink]="['/questionreferendum']">
+                                <i class="fa fa-users fa-lg"></i> Question & Referendum
+                            </a>
+                        </li>
+                        <li>
+                            <a [routerLink]="['/ballotassignment']">
+                                <i class="fa fa-users fa-lg"></i> Ballot Assignment Chart
                             </a>
                         </li>
                         <li data-toggle="collapse" data-target="#products" class="collapsed">
-                            <a><i class="fa fa-gift fa-lg"></i> Questions/Referenda <span class="arrow"></span></a>
+                            <a [routerLink]="['/programming']"><i class="fa fa-gift fa-lg"></i> Programming Form <span class="arrow"></span></a>
                         </li>
                         <ul class="sub-menu collapse" id="products">
-                            <li class="active"><a>Submenu 1</a></li>
-                            <li><a>Submenu 2</a></li>
-                            <li><a>Submenu 3</a></li>
-                            <li><a>Submenu 4</a></li>
+                            <li class="active"><a>M100</a></li>
+                            <li><a>DS200</a></li>
+                            <li><a>DS450</a></li>
+                            <li><a>DS850</a></li>
+                            <li><a>M650</a></li>
+                            <li><a>Ivotronic</a></li>
+                            <li><a>ExpressVote</a></li>
                         </ul>
                         <li data-toggle="collapse" data-target="#service" class="collapsed">
-                            <a><i class="fa fa-globe fa-lg"></i> Contents and Candidates (Done)</a>
+                            <a [routerLink]="['/expresspoll']"><i class="fa fa-globe fa-lg"></i> ExpressPoll</a>
                         </li>
                         <li data-toggle="collapse" data-target="#new" class="collapsed">
-                            <a><i class="fa fa-car fa-lg"></i> Ballot Assignment Chart</a>
+                            <a [routerLink]="['/precinctlist']"><i class="fa fa-car fa-lg"></i> Balotar</a>
                         </li>
                         <li>
                             <a>
-                                <i class="fa fa-user fa-lg"></i> M100 Programming
+                                <i class="fa fa-users fa-lg"></i> Vote By Mail
                             </a>
                         </li>
                         <li>
                             <a>
-                                <i class="fa fa-users fa-lg"></i> iV0 Coding Specifications
+                                <i class="fa fa-users fa-lg"></i> Printing Information
                             </a>
                         </li>
                         <li>
                             <a>
-                                <i class="fa fa-users fa-lg"></i> Balator Printing
+                                <i class="fa fa-users fa-lg"></i> On Site Election Event Support
                             </a>
                         </li>
                         <li>
                             <a>
-                                <i class="fa fa-users fa-lg"></i> Pronunciation Guide/Waiver
+                                <i class="fa fa-users fa-lg"></i> Pronunciation Guide
+                            </a>
+                        </li>
+                        <li>
+                            <a>
+                                <i class="fa fa-users fa-lg"></i> Pronunciation Waiver
                             </a>
                         </li>
                     </ul>

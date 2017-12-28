@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 import { Ng2SmartTableModule, LocalDataSource } from 'ng2-smart-table';
 import {MenuItem} from 'primeng/primeng';
 
@@ -13,7 +14,9 @@ export class ElectionOperationsFormsComponent implements OnInit {
   items: MenuItem[];
   home: MenuItem;
 
-  constructor() { 
+  constructor(
+    private router: Router
+  ) { 
     this.source = new LocalDataSource(this.data);
     this.customerDetails = {
       accountName:'test user',
@@ -83,6 +86,10 @@ export class ElectionOperationsFormsComponent implements OnInit {
       ],
     },
   };
+  onCustom(event) {
+    // alert(`Custom event '${event.action}' fired on row №: ${event.data.id}`)
+    this.router.navigate(['/electionformdata'])
+  }
 
   data = [
     {inputElectionDate:'27/12/2016', inputElectionType:'123', comment:'30/1/2017' },
