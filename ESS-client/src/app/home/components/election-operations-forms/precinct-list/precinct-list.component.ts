@@ -6,10 +6,15 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./precinct-list.component.css']
 })
 export class PrecinctListComponent implements OnInit {
-
-  constructor() { }
+	public value: any;
+  constructor() { 
+  // document.getElementById("uploadBtn").onchange = function () {
+  //     document.getElementById("uploadFile").value = this.value.substring(12);
+  // };
+}
 
   ngOnInit() {
+
   }
 
 }

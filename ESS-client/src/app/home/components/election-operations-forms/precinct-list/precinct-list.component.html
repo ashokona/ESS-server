@@ -1,3 +1,78 @@
-<p>
-  precinct-list works!
-</p>
+<div class="row container-fluid precinct-main-fluid">
+<div class="row header-main1">
+    <div class="container">
+        <div class="col-sm-7">
+            <h1><i class="fa fa-angle-double-right" aria-hidden="true"></i>Precinct List</h1>
+            <p-breadcrumb [model]="items"></p-breadcrumb>
+
+        </div>
+        <div class="date-main col-sm-5">
+            <div class="col-sm-6">
+                <span class="date-head">Created Date : </span><span class="date-text">01/11/2017</span>
+            </div>
+            <div class="col-sm-6">
+                <span class="date-head">Modified Date : </span><span class="date-text">28/11/2017</span>
+            </div>
+        </div>
+
+    </div>
+</div>
+<div class="container">
+    <div class="row election-btns">
+        <div class="election-btns-left col-sm-5">
+            <button type="button" class="btn btn-type1" [routerLink]="['/electionoperation']"><i class="fa fa-angle-double-left" aria-hidden="true"></i> Go back</button>
+        </div>
+        <div class="election-btns-right col-sm-7">
+            <button type="button" class="btn btn-type1"><i class="fa fa-file-text-o" aria-hidden="true"></i> Forms Guide</button>
+            <button type="button" class="btn btn-type2"><i class="fa fa-print" aria-hidden="true"></i> Printable</button>
+        </div>
+        <!-- <div class="star-icon pull-right">
+			<span class="star-icons">
+				<i class="fa fa-star" aria-hidden="true"></i>
+				<i class="fa fa-question-circle" aria-hidden="true"></i>
+			</span>
+		</div> -->
+    </div>
+    <div class="row election-data-main">
+        <div class="col-sm-12 election-form-body">
+            <div class="col-sm-6 col-sm-offset-3 precinct-main">
+            	<form class="login-form">
+	            	<div class="input-group">
+					    <input id="uploadFile" class="form-control" placeholder="Choose File" disabled="disabled">
+					    <div class="input-group-btn">
+					      <div class="fileUpload btn btn-success">
+					        <span><i class="glyphicon glyphicon-upload"></i> Upload</span>
+					        <input id="uploadBtn" type="file" class="upload" />
+					      </div>
+					    </div>
+					</div>
+					<div class="add-precinctbtn">
+						<button _ngcontent-c13="" class="btn btn-md order-btn3" type="button">Add Precinct</button>
+					</div>
+					<div class="add-precinctbtn-formstarts">
+						<div class="coverage-type-textarea">
+                            <div class="form-group">
+                                <textarea class="form-control" rows="5" id="comment" placeholder="Enter Precinct Name"></textarea>
+                            </div>
+                            <div class="form-group">
+	                            <input type="email" class="form-control" id="email" placeholder="Precinct ID" name="email">
+	                        </div>
+	                        <div class="form-group">
+	                            <input type="email" class="form-control" id="email" placeholder="Alt Precinct ID" name="email">
+	                        </div>
+	                        <div class="form-group">
+                                <textarea class="form-control" rows="5" id="comment" placeholder="Enter Alt Precinct ID 2"></textarea>
+                            </div>
+                        </div>
+                        <div class="submit-btn">
+                            <div class="text-right">
+                                <button class="btn btn-md order-btn2" type="button">Submit</button>
+                            </div>
+                        </div>
+                        
+					</div>
+				</form>
+            </div>
+        </div>
+    </div>
+</div>

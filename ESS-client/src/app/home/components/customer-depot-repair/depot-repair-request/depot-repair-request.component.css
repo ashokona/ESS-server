@@ -641,6 +641,15 @@ body {
     border-radius: 0px;
     margin-top: -5px; }
 .coverage-type-textarea { padding: 10px 0px; }
+.coverage-type-textarea textarea { font-style: italic; }
+.coverage-type-textarea textarea::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: red;
+    opacity: 1; /* Firefox */
+}
+.coverage-type-textarea ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #dad9d7 !important;
+}
+
 .coverage-type-head .col-sm-4 { padding: 0px; }
 .coverage-type-head .col-sm-4 .form-group, .coverage-type-textarea .form-group { margin-bottom: 0px; }
 .customer-need { padding: 12px 0px; }
