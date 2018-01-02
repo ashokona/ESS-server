@@ -297,7 +297,11 @@ select:-webkit-autofill {
 .election-form-body .col-sm-6 {
     padding: 0px 7.5px;
 }
-
+.election-general-info-body td .checkbox {
+        margin: 0px;
+    margin-top: -13px;
+    text-align: center;
+}
 .election-general-info-body {
     padding: 20px 0px;
 }
